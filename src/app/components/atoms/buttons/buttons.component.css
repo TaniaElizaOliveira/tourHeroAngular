@@ -1,0 +1,56 @@
+.button-header{
+margin: .5rem;
+padding: .8rem;
+background-color: #ff4180;
+border-radius: .5rem;
+border: none;
+color:white;
+}
+.button-search{
+margin: .5rem;
+padding: .4rem;
+background-color: #ff95b8;
+border-radius: .5rem;
+border: none;
+color:white;
+
+}
+.button-delete{
+  display: inline-block;
+  
+margin-left: 1rem;
+padding: .6rem;
+background-color: #ff4180;
+border-radius: .5rem;
+border: none;
+color:white;
+}
+.button-clear{
+margin: .5rem;
+padding: .8rem;
+background-color: #ff4180;
+border-radius: .5rem;
+border: none;
+color:white;
+}
+.button-card{
+  background-color: #FF4081;
+  border-radius: .5rem;
+  padding: 1rem 3rem 1rem 3rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  min-width: 70px;
+  margin: .5rem auto;
+  box-sizing: border-box;
+ 
+}
+
+.button-search.button-card:hover {
+  background-color: #d87f9d;
+}
+.button-search:hover {
+  background-color: #d87f9d;
+}

@@ -1,0 +1,15 @@
+.mat-card {
+  padding: 1rem;
+  margin: auto;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+
+
+

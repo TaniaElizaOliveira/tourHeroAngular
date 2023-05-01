@@ -1,0 +1,24 @@
+.inputDashboard{
+  padding: 0.5rem;
+  display: flex;
+  width: 20rem;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 3px 5px 6px;
+  margin-right: 1rem;
+}
+.inputHeros{
+  width: 20%;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+.inputDetailHero{
+  font-size: 1em;
+  padding: .5rem;
+  border-radius: .5em;
+  margin-left: 1rem;
+}

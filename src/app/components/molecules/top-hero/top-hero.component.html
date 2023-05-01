@@ -1,0 +1,6 @@
+<mat-card>
+  <app-buttons buttonStyle="button-card" *ngFor="let hero of heroes"
+  routerLink="/detail/{{hero.id}}" buttonDescription="{{hero.name}}">{{hero.name}}</app-buttons>
+</mat-card>
+
+

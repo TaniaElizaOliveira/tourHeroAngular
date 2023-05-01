@@ -1,0 +1,40 @@
+.hero{
+  font-size: large;
+  margin:2rem 0 15rem 1rem;
+ }
+
+
+label {
+  color: #435960;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+input {
+  font-size: 1em;
+  padding: .5rem;
+  border-radius: .5em;
+  margin-left: 1rem;
+  
+}
+span{
+  margin-left: 1rem;
+}
+button {
+  margin: .5rem;
+  background-color: #ff4180;
+  padding: .5rem;
+  border-radius: .5em;
+  font-size: 1rem;
+  
+}
+.back{
+  margin-left: 11rem;
+}
+button:hover {
+  background-color: #ffa2c1;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}

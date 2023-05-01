@@ -1,0 +1,23 @@
+<mat-card class="hero" *ngIf="hero">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Details: {{hero.name | uppercase}}</mat-card-title>
+    <mat-card-subtitle>id: {{hero.id}}</mat-card-subtitle>
+  </mat-card-header>
+  <label for="hero-name">Hero name: </label>
+    <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
+     <mat-card-content>
+    </mat-card-content>
+  <mat-card-actions>
+    <app-buttons
+     buttonStyle="button-header"
+      (click)="goBack()"
+      buttonDescription="GO BACK">
+    </app-buttons>
+    <app-buttons
+     buttonStyle="button-header"
+      (click)="save()"
+      buttonDescription="SAVE">
+    </app-buttons>
+  </mat-card-actions>
+</mat-card>
